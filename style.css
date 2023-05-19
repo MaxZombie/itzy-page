@@ -1,0 +1,91 @@
+/*.img{
+    display: flex;
+    background-size: cover;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+   
+}*/
+
+body{
+    background-color: whitesmoke !important;
+}
+
+.navbar{
+    background-color:#0D080D !important;
+}
+
+.dropdown-menu{
+    background-color:#0D080D !important;
+}
+
+.dropdown-item{
+    color: #ff00aa  !important;
+}
+
+.img1{
+    background-size: cover;
+}
+
+.nav-link{
+    color: #ff00aa !important;
+    font-family: 'Audiowide', cursive;
+}
+
+/* LINKS DE NAVBAR ANIMADOS */
+
+.nav-link {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+
+.cont{
+    background-color: #2f2f2e;
+}
+
+.first-title{
+    padding: 50px;
+
+}
+
+#first_title{
+    font-size:100px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-shadow: 0 0 20px #ff00aa, 0 0 20px #ff00aa;
+    transition: font-size 0.5s ease-in-out;
+}
+
+
+
+
+.h1os{
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-shadow: 0 0 20px #ff00aa, 0 0 20px #ff00aa;
+}
+
+.cajasmiembros{
+    list-style: none;
+    font-size: 18px;
+}
